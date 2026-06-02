@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.swill.killaura.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinClientPlayNetworkHandler",
+    "MixinMinecraftClient",
+    "MixinPlayerEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
