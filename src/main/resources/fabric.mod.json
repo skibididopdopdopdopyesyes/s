@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "killaura",
+  "version": "${version}",
+  "name": "KillAura",
+  "description": "Advanced Combat Cheat",
+  "authors": ["Swill"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/killaura/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.swill.killaura.KillAuraMod"
+    ],
+    "main": [
+      "com.swill.killaura.KillAuraMod"
+    ]
+  },
+  "mixins": [
+    "mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
